@@ -17,7 +17,6 @@ Each LDR sits in a voltage divider with its own potentiometer, one row for the l
 The LM358 takes the left LDR+potentiometer row's voltage and the right LDR+potentiometer row's voltage as its two inputs, snapping the output high or low depending on which side reads higher, rather than passing through a slow analog gradient. That clean digital-like output feeds the base of an NPN BJT, which switches motor current on or off. Flyback diodes across each motor protect the transistors from voltage spikes when the motor switches off, and electrolytic capacitors across the power rails smooth out ripple from the motors starting and stopping.
 
 Because the single comparator output feeds both motor-driving BJTs, the two motors respond oppositely to the same left-vs-right comparison: when the robot drifts and one sensor row reads higher relative to the other, one motor speeds up (or the other slows/stops) to steer the robot back onto the line.
-<img width="745" height="533" alt="Screenshot 2026-08-05 at 7 02 13 PM" src="https://github.com/user-attachments/assets/5e99cabf-1f4d-44a9-b9f3-0133344c65c3" />
 
 ## Repo contents
 
