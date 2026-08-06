@@ -32,7 +32,7 @@ Because the two op-amp outputs are naturally complementary (one high while the o
 
 ## Schematic
 
-<img width="735" height="524" alt="Schematic" src="https://github.com/user-attachments/assets/be8fd1a3-437c-4f96-a6b5-02b2bce97735" />
+![schematic](images/schematic.png)
 
 ## PCB layout (routed)
 
