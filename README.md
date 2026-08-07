@@ -44,7 +44,15 @@ Because the two op-amp outputs are naturally complementary (one high while the o
 
 ## Demo
 
-Add a video/photos of your own build navigating the track here.
+
+
+https://github.com/user-attachments/assets/1498a725-2bcb-41b3-9672-68c0f6f58ff7
+
+
+
+
+
+
 
 ## Key components
 
